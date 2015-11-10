@@ -5,6 +5,13 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # Now install brew-cask
 brew install caskroom/cask/brew-cask
 
+# Change ownership (otherwise update won't work)
+sudo chown -R `whoami`:admin /usr/local
+
+# Fix some issues around brew so that update works properly
+cd $(brew --repository)
+git reset --hard FETCH_HEAD
+
 # And now all the nice software I need
 brew-cask install mongodb
 brew-cask install macdown
