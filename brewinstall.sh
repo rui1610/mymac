@@ -26,6 +26,7 @@ brew-cask install cyberduck
 brew-cask install freemind
 brew-cask install mixxx
 brew-cask install Caskroom/cask/metaz
+brew-cask install Caskroom/cask/musicbrainz-picard
 brew-cask install linein
 
 sudo -s
