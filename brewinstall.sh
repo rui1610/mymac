@@ -28,6 +28,9 @@ brew-cask install mixxx
 brew-cask install Caskroom/cask/metaz
 brew-cask install Caskroom/cask/musicbrainz-picard
 brew-cask install linein
+brew tap cloudfoundry/tap
+brew install cf-cli
+
 
 sudo -s
 brew-cask install xampp
