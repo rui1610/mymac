@@ -35,3 +35,5 @@ brew install cf-cli
 sudo -s
 brew-cask install xampp
 brew-cask install virtualbox
+
+gem install jekyll
