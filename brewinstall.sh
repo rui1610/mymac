@@ -27,6 +27,7 @@ brew-cask install freemind
 brew-cask install mixxx
 brew-cask install Caskroom/cask/metaz
 brew-cask install Caskroom/cask/musicbrainz-picard
+brew-cask install Caskroom/cask/mixxx
 brew-cask install linein
 brew tap cloudfoundry/tap
 brew install cf-cli
