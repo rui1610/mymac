@@ -29,6 +29,7 @@ brew-cask install Caskroom/cask/metaz
 brew-cask install Caskroom/cask/musicbrainz-picard
 brew-cask install Caskroom/cask/mixxx
 brew-cask install linein
+brew-cask install Caskroom/cask/xquartz
 brew-cask install homebrew/science/octave
 
 brew tap cloudfoundry/tap
