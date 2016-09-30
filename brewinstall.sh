@@ -6,7 +6,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install caskroom/cask/brew-cask
 
 # Change ownership (otherwise update won't work)
-sudo chown -R `whoami`:admin /usr/local
+# Nowadays the ownership to /usr/local is no longer necessary, so commenting out the line
+#sudo chown -R `whoami`:admin /usr/local
 
 # Fix some issues around brew so that update works properly
 cd $(brew --repository)
