@@ -3,7 +3,7 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Now install brew-cask
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
 
 # Change ownership (otherwise update won't work)
 # Nowadays the ownership to /usr/local is no longer necessary, so commenting out the line
@@ -14,30 +14,34 @@ cd $(brew --repository)
 git reset --hard FETCH_HEAD
 
 # And now all the nice software I need
-brew-cask install google-chrome
-brew-cask install komodo-edit
-brew-cask install eclipse-jee
-brew-cask install handbrake
-brew-cask install macdown
-brew-cask install vlc
-brew-cask install filezilla
-brew-cask install gimp
-brew-cask install mongodb
-brew-cask install cyberduck
-brew-cask install freemind
-brew-cask install mixxx
-brew-cask install Caskroom/cask/metaz
-brew-cask install Caskroom/cask/musicbrainz-picard
-brew-cask install Caskroom/cask/mixxx
-brew-cask install linein
-brew-cask install Caskroom/cask/xquartz
-brew-cask install homebrew/science/octave
-
+brew install Caskroom/cask/freemind
+brew install Caskroom/cask/google-chrome
+brew install Caskroom/cask/komodo-edit
+brew install Caskroom/cask/komodo-edit
+brew install Caskroom/cask/handbrake
+brew install Caskroom/cask/handbrakecli
+brew cask install macdown
 brew tap cloudfoundry/tap
 brew install cf-cli
+brew cask install filezilla
+brew cask install xampp
 
-sudo -s
-brew-cask install xampp
+#brew-cask install eclipse-jee
+#brew-cask install vlc
+
+#brew-cask install gimp
+#brew-cask install mongodb
+#brew-cask install cyberduck
+
+#brew-cask install mixxx
+#brew-cask install Caskroom/cask/metaz
+#brew-cask install Caskroom/cask/musicbrainz-picard
+#brew-cask install Caskroom/cask/mixxx
+#brew-cask install linein
+#brew-cask install Caskroom/cask/xquartz
+#brew-cask install homebrew/science/octave
+
+#sudo -s
 brew-cask install virtualbox
 
 gem install jekyll
