@@ -27,7 +27,7 @@ brew cask install filezilla
 brew cask install xampp
 
 #brew-cask install eclipse-jee
-#brew-cask install vlc
+brew cask install vlc
 
 #brew-cask install gimp
 #brew-cask install mongodb
