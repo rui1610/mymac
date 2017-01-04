@@ -17,9 +17,9 @@ git reset --hard FETCH_HEAD
 brew install Caskroom/cask/freemind
 brew install Caskroom/cask/google-chrome
 brew install Caskroom/cask/komodo-edit
-brew install Caskroom/cask/komodo-edit
 brew install Caskroom/cask/handbrake
 brew install Caskroom/cask/handbrakecli
+brew install Caskroom/cask/vagrant
 brew cask install macdown
 brew tap cloudfoundry/tap
 brew install cf-cli
