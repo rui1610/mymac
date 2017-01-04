@@ -20,6 +20,7 @@ brew install Caskroom/cask/komodo-edit
 brew install Caskroom/cask/handbrake
 brew install Caskroom/cask/handbrakecli
 brew install Caskroom/cask/vagrant
+brew install Caskroom/cask/virtualbox
 brew cask install macdown
 brew tap cloudfoundry/tap
 brew install cf-cli
