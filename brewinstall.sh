@@ -14,6 +14,7 @@ cd $(brew --repository)
 git reset --hard FETCH_HEAD
 
 # And now all the nice software I need
+brew install node
 brew install Caskroom/cask/freemind
 brew install Caskroom/cask/google-chrome
 brew install Caskroom/cask/komodo-edit
