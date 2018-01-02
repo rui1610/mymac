@@ -31,6 +31,8 @@ brew cask install xampp
 #brew-cask install eclipse-jee
 brew cask install vlc
 
+brew install ffmpeg --with-fdk-aac --with-sdl2 --with-freetype --with-libass --with-libvorbis --with-libvpx --with-opus --with-x265
+
 #brew-cask install gimp
 #brew-cask install mongodb
 #brew-cask install cyberduck
