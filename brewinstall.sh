@@ -46,6 +46,8 @@ brew install ffmpeg --with-fdk-aac --with-sdl2 --with-freetype --with-libass --w
 #brew-cask install Caskroom/cask/xquartz
 #brew-cask install homebrew/science/octave
 
+brew cask install caskroom/cask/flightgear
+
 # Install also dupeGuru, DateTree, FlightGear, ShowHiddenFiles
 
 #sudo -s
