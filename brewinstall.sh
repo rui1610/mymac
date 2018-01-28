@@ -30,6 +30,7 @@ brew cask install xampp
 
 #brew-cask install eclipse-jee
 brew cask install vlc
+brew cask install caskroom/cask/openemu 
 
 brew install ffmpeg --with-fdk-aac --with-sdl2 --with-freetype --with-libass --with-libvorbis --with-libvpx --with-opus --with-x265
 # usage: ffmpeg -i input.mkv -codec copy output.mp4
