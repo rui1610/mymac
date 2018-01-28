@@ -19,7 +19,7 @@ brew install Caskroom/cask/freemind
 brew install Caskroom/cask/google-chrome
 brew install Caskroom/cask/komodo-edit
 brew install Caskroom/cask/handbrake
-brew install Caskroom/cask/handbrakecli
+#brew install Caskroom/cask/handbrakecli
 brew install Caskroom/cask/vagrant
 brew install Caskroom/cask/virtualbox
 brew cask install macdown
@@ -45,6 +45,8 @@ brew install ffmpeg --with-fdk-aac --with-sdl2 --with-freetype --with-libass --w
 #brew-cask install linein
 #brew-cask install Caskroom/cask/xquartz
 #brew-cask install homebrew/science/octave
+
+# Install also dupeGuru, DateTree, FlightGear, ShowHiddenFiles
 
 #sudo -s
 brew-cask install virtualbox
