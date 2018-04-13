@@ -27,6 +27,7 @@ brew tap cloudfoundry/tap
 brew install cf-cli
 brew cask install filezilla
 brew cask install xampp
+brew cask install caskroom/cask/shiftit
 
 #brew-cask install eclipse-jee
 brew cask install vlc
