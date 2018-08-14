@@ -30,7 +30,7 @@ brew install cf-cli
 brew cask install filezilla
 brew cask install xampp
 brew cask install caskroom/cask/shiftit
-brew install visual-studio-code
+brew cask install visual-studio-code
 
 #brew-cask install eclipse-jee
 brew cask install vlc
