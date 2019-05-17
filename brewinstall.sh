@@ -19,7 +19,7 @@ git reset --hard FETCH_HEAD
 brew install node@6
 brew cask install google-chrome
 brew cask install komodo-edit
-#brew cask install handbrakecli
+
 brew cask install vagrant
 
 brew cask install macdown
@@ -39,6 +39,7 @@ brew install ffmpeg --with-fdk-aac --with-sdl2 --with-freetype --with-libass --w
 
 brew cask install gimp
 brew cask install handbrake
+#brew cask install handbrakecli
 
 #brew-cask install mongodb
 #brew-cask install cyberduck
@@ -50,7 +51,7 @@ brew cask install linein
 brew cask install xquartz
 brew cask install octave
 
-brew cask install caskroom/cask/flightgear
+brew cask install flightgear
 
 # Install also dupeGuru, DateTree, FlightGear, ShowHiddenFiles
 
@@ -58,8 +59,5 @@ brew cask install caskroom/cask/flightgear
 brew cask install virtualbox
 # Cool screen saver
 brew cask install aerial
-
 brew cask install freemind
-
-
 gem install jekyll
