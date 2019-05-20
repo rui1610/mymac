@@ -17,47 +17,38 @@ git reset --hard FETCH_HEAD
 
 # And now all the nice software I need
 brew install node@6
-brew cask install google-chrome
-brew cask install komodo-edit
-
-brew cask install vagrant
-
-brew cask install macdown
 brew tap cloudfoundry/tap
 brew install cf-cli
-brew cask install filezilla
-brew cask install xampp
-brew cask install caskroom/cask/shiftit
-brew cask install visual-studio-code
+gem install jekyll
 
-#brew-cask install eclipse-jee
-brew cask install vlc
-brew cask install caskroom/cask/openemu 
+# Cool screen saver
+brew cask install aerial
+
+#brew-cask install cyberduck
+#brew cask install eclipse-jee
 
 brew install ffmpeg --with-fdk-aac --with-sdl2 --with-freetype --with-libass --with-libvorbis --with-libvpx --with-opus --with-x265
 # usage: ffmpeg -i input.mkv -codec copy output.mp4
 
+brew cask install filezilla
+brew cask install flightgear
+brew cask install freemind
 brew cask install gimp
+brew cask install google-chrome
 brew cask install handbrake
 #brew cask install handbrakecli
-
-#brew-cask install mongodb
-#brew-cask install cyberduck
-
-brew cask install mixxx
-brew cask install metaz
+#brew cask install komodo-edit
+#brew cask install linein
+brew cask install macdown
+#brew cask install metaz
+#brew cask install mixxx
 brew cask install musicbrainz-picard
-brew cask install linein
+#brew cask install octave
+#brew cask install openemu 
+brew cask install shiftit
+brew cask install vagrant
+#brew cask install virtualbox
+brew cask install visual-studio-code
+#brew cask install vlc
+brew cask install xampp
 brew cask install xquartz
-brew cask install octave
-
-brew cask install flightgear
-
-# Install also dupeGuru, DateTree, FlightGear, ShowHiddenFiles
-
-#sudo -s
-brew cask install virtualbox
-# Cool screen saver
-brew cask install aerial
-brew cask install freemind
-gem install jekyll
