@@ -1,7 +1,7 @@
 #!/bin/bash
 # first install brew (checkout webpage on http://brew.sh/)
 #ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # Now install brew-cask
 brew tap caskroom/cask
